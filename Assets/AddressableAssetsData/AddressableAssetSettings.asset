@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 6df2d931dec78844598b60ef025f46f8
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 0
+  m_RemoteCatalogBuildPath:
+    m_Id: d2d72d6558af97b498f387ad3f5dd184
+  m_RemoteCatalogLoadPath:
+    m_Id: 88605042e70b500428348d9ee7b3ccc0
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 75cc256051dc0734ca7a42572eccc850, type: 2}
+  - {fileID: 11400000, guid: 1ee730401b6d7c846b6d19bd3d25b213, type: 2}
+  - {fileID: 11400000, guid: 67b1071d9cfd56f408fb732207754b51, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: c87ea8fe67003774f90c3ef644b8acc8
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 348e98cdf78985b48a154ac246182b69
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 929d93b2b31bd91429b78ed89e10f3d2
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 812e667a1eecf54458bf45899cc11d97
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: d2d72d6558af97b498f387ad3f5dd184
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 88605042e70b500428348d9ee7b3ccc0
+        m_Value: https://storage.googleapis.com/ar-app-miniproject2/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: 348e98cdf78985b48a154ac246182b69
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 929d93b2b31bd91429b78ed89e10f3d2
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 812e667a1eecf54458bf45899cc11d97
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: d2d72d6558af97b498f387ad3f5dd184
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 88605042e70b500428348d9ee7b3ccc0
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Furnitures
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: c0b75719b3e37234ea1b2a9e64a0b25d, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: d221db835bd02844ea8890f5474a5846, type: 2}
+  - {fileID: 11400000, guid: 0a1a803df080b5c4eb3ae087847cbe55, type: 2}
+  - {fileID: 11400000, guid: 81f6f959d3bea5b49bfc2c3b9f2043df, type: 2}
+  - {fileID: 11400000, guid: 34a91b47b6729bd4693826a9555d0475, type: 2}
+  m_ActiveProfileId: c87ea8fe67003774f90c3ef644b8acc8
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []

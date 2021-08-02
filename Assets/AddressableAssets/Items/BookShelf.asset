@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbdebb12d85b154f8e31b9f52ebfdff, type: 3}
+  m_Name: BookShelf
+  m_EditorClassIdentifier: 
+  price: 0
+  itemPrefab: {fileID: 8412696065154204799, guid: 747099d39dd18d34592da4b1445d6d7a, type: 3}
+  itemImage: {fileID: 21300000, guid: 1e925594e522b544a8792da395b68e93, type: 3}
